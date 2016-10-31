@@ -1,0 +1,115 @@
+/*COLORS USED IN THIS PAGE
+white font: #f4f5f5;
+grey font: #606060;
+search input grey: #f2f2f2;
+blue: #007bff;
+light blue: #47a0ff;
+*/
+
+		/*---------------BASIC CLASS------------*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.4em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+.floatLeft{
+	float: left;
+}
+
+.floatRight{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+.container{
+	max-width: 1350px;
+	/*background-color: red;*/
+	margin: auto;
+}
+
+a{
+	color: #f4f5f5;
+}
+
+
+		/*-----------MENU -------*/
+.mainMenu{
+	background-image: url("img/landscape-background.jpg");
+	width: 100%;
+	color: #f4f5f5;
+}
+
+.socialBackgroundColor{
+	background-color: rgba(0,0,0,0.8);
+}
+
+.fontSizeSocial{
+	font-size: 0.9em;
+}
+
+.marginRight15{
+	margin-right: 15px;
+}
+
+.wrapperSocial{
+	width: 90%;
+	margin: auto;
+}
+
+.wrapperSocial > div:nth-of-type(1){
+	/*background-color: red;*/
+	width: 50%;
+}
+
+.wrapperSocial > div:nth-of-type(2){
+	width: 50%;
+	background-color: green;
+}
+
+.wrapperSocial > div > div > p{
+	display: inline;
+	margin-left: 5px;
+}
+
+.wrapperSocial > div:nth-of-type(1) > div:nth-child(n+2){
+	margin-left: 5%;
+}
+
+.wrapperSocial > div:nth-of-type(2) > div > a:nth-of-type(-n+5){
+	color: red;
+	/*margin-right: 15%;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.tourByType{
+	background-image: url("img/lake-mountains.jpg");
+}*/
+

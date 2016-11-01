@@ -11,7 +11,7 @@ light blue: #47a0ff;
     margin: 0;
     padding: 0;
     border: 0;
-    line-height: 1.4em;
+    /*line-height: 1.4em;*/
     vertical-align: baseline;
     text-decoration: none;
     outline: 0;
@@ -109,22 +109,56 @@ hr{
 
 
 		/* --------- LOGO ------------*/
-
 .logo{
-	width: 13%;
-	height: 55px;
+	width: 17%;
+	height: 70px;
+	font-weight: 700;
 }
 
-div[class="logo"] > div > p:nth-of-type(1){
-	color: red;
+.logo > div > p:nth-of-type(1){
+	font-size: 1.8em;
+	line-height: 1em;
+}
+
+.logo span{
+	color: #007bff;
+}
+
+.logo > div > p:nth-of-type(2){
+	text-transform: uppercase;
+	font-size: 0.8em;
+	font-weight: 400;
 }
 
 
 
 
+		/*------------MAIN MENU -------------*/
+.mainMenuSection{
+	width: 88%;
+	margin: 15px auto 0 auto;
+	/*background-color: green;*/
+}
 
-/*
-.tourByType{
-	background-image: url("img/lake-mountains.jpg");
-}*/
+.menu{
+	font-size: 1.2em;
+	font-weight: 400;
+	width: 50%;
+}
 
+nav{
+	width: 100%;
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+ul a{
+	/*background-color: red;*/
+}
+
+ul a:nth-of-type(-n+5){
+	margin-right: 15px;
+}

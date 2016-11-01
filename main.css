@@ -76,7 +76,7 @@ a{
 
 .wrapperSocial > div:nth-of-type(2){
 	width: 50%;
-	background-color: green;
+	/*background-color: green;*/
 }
 
 .wrapperSocial > div > div > p{
@@ -89,8 +89,9 @@ a{
 }
 
 .wrapperSocial > div:nth-of-type(2) > div > a:nth-of-type(-n+5){
-	color: red;
-	/*margin-right: 15%;*/
+	/*color: red;*/
+	margin-right: 20px;
+	po
 }
 
 

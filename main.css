@@ -111,7 +111,7 @@ hr{
 		/* --------- LOGO ------------*/
 .logo{
 	width: 17%;
-	height: 70px;
+	margin-bottom: 15px;
 	font-weight: 700;
 }
 
@@ -147,7 +147,7 @@ hr{
 }
 
 nav{
-	width: 100%;
+	/*width: 100%;*/
 }
 
 ul li{
@@ -162,3 +162,12 @@ ul a{
 ul a:nth-of-type(-n+5){
 	margin-right: 15px;
 }
+
+
+1. Ustawa o pracownikach samorządowych (do niej musimy się odwoływać)
+
+3. Obowiązki pracownika samorządowego
+
+5. Stosunki służbowe
+6. Stanowiska pracy
+7. Jak wygląda kwestia zatrudnienia (kodeks pracy i kodeks cywilny)

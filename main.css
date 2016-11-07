@@ -44,12 +44,17 @@ a{
 	color: #f4f5f5;
 }
 
+.displayBlock{
+	display: block;
+}
+
 
 		/*-----------Social buttons and hr -------*/
 .mainMenu{
 	background-image: url("img/landscape-background.jpg");
+	background-size: 100% auto;
 	width: 100%;
-	height: 780px;
+	height: 665px;
 	color: #f4f5f5;
 	position: relative;
 }
@@ -199,11 +204,77 @@ h1{
 		/*-------------SEARCH TOURS----------*/
 .searchTours{
 	background-color: white;
-	width: 300px;
+	width: 350px;
 	height: 400px;
 	z-index: 1;
 	position: absolute;
 	left: 620px;
-	
+	top: 200px;
+	text-align: center;
 }
 
+h2{
+	color: #606060;
+	font-weight: 700;
+	font-size: 2.2em;
+	margin-top: 15px;
+}
+
+.searchTours p{
+	color: #606060;
+	margin-bottom: 15px;
+}
+
+.searchTours button{
+	background-color: #007bff;
+	color: white;
+	font-weight: 700;
+}
+
+.searchTours button:hover{
+	cursor: pointer;
+	background-color: #006aee;
+}
+
+.searchTours ::-webkit-input-placeholder{
+	color: #606060;
+}
+
+.searchTours input, .searchTours select, .searchTours button{
+	margin: 15px auto 0 auto;
+	height: 40px;
+	width: 280px;
+	border-radius: 5px;
+}
+
+.searchTours input, .searchTours select{
+	background-color: #f2f2f2;
+	color: #606060;
+	padding-left: 10px;
+}
+
+.searchTours select, .searchTours button{
+	margin-top: 15px;
+}
+
+
+		/*---------FIND TOUR BY TYPE----------*/
+.tourByType{
+	background-image: url(img/lake-mountains.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 700px;
+}
+
+.tourByTypeBackgroundColor{
+	background-color: rgba(0,0,0,0.8);
+}
+
+.tourTypeOption{
+	display: inline-block;
+}
+
+.tourTypeOption img{
+	width: 40px;
+	height: 40px;
+}

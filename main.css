@@ -258,23 +258,119 @@ h2{
 }
 
 
-		/*---------FIND TOUR BY TYPE----------*/
+
+		/*---------------FIND TOUR BY TYPE------------*/
 .tourByType{
 	background-image: url(img/lake-mountains.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% auto;
-	height: 700px;
+	height: 590px;
 }
 
 .tourByTypeBackgroundColor{
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(255,255,255,0.6);
+	height: 100%;
 }
 
-.tourTypeOption{
+.tourByTypeOption{
+	border-radius: 50%;
+	width: 190px;
+	height: 190px;
 	display: inline-block;
+	margin-left: 120px;
 }
 
-.tourTypeOption img{
-	width: 40px;
-	height: 40px;
+.tourByTypeOption > p{
+	color: white;
+	font-weight: 700;
+	font-size: 1.4em;
+	padding-top: 80px;
+}
+
+.tourTypeOption1{
+	background-image: url(img/north-america-nature.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.tourTypeOption2{
+	background-image: url(img/north-america-nature2.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.tourTypeOption3{
+	background-image: url(img/san-francisco-bridge.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.tourTypeOption4{
+	background-image: url(img/parrot.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.tourByTypeBackgroundColor > .center > h3{
+	padding-top: 80px;
+	font-size: 1.8em;
+	color: #606060;
+}
+
+.tourByTypeBackgroundColor > .center > p{
+	color: #606060;
+	padding-top: 10px;
+}
+
+.center{
+	text-align: center;
+}
+
+.marginTop{
+	margin-top: 120px;
+}
+
+
+
+		/*----------- Deals and Discount--------------*/
+.dealsAndDiscount{
+	background-image: url(img/forest-background.jpg);
+	background-size: 100% auto;
+	height: 665px;
+}
+
+.dealsAndDiscountBackgroundColor{
+	background-color: rgba(71,160,255,0.8);
+	height: 100%;
+}
+
+.dealsAndDiscount h3{
+	font-size: 1.9em;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.dealsMargin{
+	margin: 0 auto;
+	width: 850px;
+}
+
+.bookingOption{
+	width: 250px;
+	margin-left: 30px;
+	
+}
+
+.bookingOption img{
+	width: 250px;
+	height: 177px;
+	/*position: absolute;*/
+}
+
+.bookingPrice{
+	background-color: white;
+	position: relative;
+	bottom: 4px;
 }
